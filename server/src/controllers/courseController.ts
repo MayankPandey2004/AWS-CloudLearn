@@ -43,9 +43,10 @@ export const createCourse = async (
     res: Response,
 ): Promise<void> => {
     try {
+        console.log("Incoming request body:", req.body);
         const { teacherId, teacherName } = req.body;
         if (!teacherId || !teacherName) {
-            res.status(400).json({ message: "Teaccher Id and name are required" })
+            res.status(400).json({ message: "Teacher Id and name are required" })
             return;
         }
 
