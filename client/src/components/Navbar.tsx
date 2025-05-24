@@ -15,9 +15,8 @@ const NavBar = ({ isCoursePage }: { isCoursePage: boolean }) => {
         <nav className="dashboard-navbar">
             <div className='dashboard-navbar__container'>
                 <Link href="/" className='nondashboard-navbar__brand' scroll={false}>
-                    Cloud Learn 
+                    Home 
                 </Link>
-                <span className="checkout-details__subtitle">Powered by AWS</span>
                 <div className='dashboard-navbar__search'>
                     <div className='md:hidden'>
                         <SidebarTrigger className="dashboard-navbar__sidebar-trigger" />
