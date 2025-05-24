@@ -13,11 +13,11 @@ const NavBar = ({ isCoursePage }: { isCoursePage: boolean }) => {
     const userRole = user?.publicMetadata?.userType as "student" | "teacher";
     return (
         <nav className="dashboard-navbar">
-            <div className='dashboard-navbar__container'>
-                <Link href="/" className='nondashboard-navbar__brand' scroll={false}>
-                    Home 
-                </Link>
+            <div className='dashboard-navbar__container'> 
                 <div className='dashboard-navbar__search'>
+                    <Link href="/" className='nondashboard-navbar__brand' scroll={false}>
+                        Home 
+                    </Link>
                     <div className='md:hidden'>
                         <SidebarTrigger className="dashboard-navbar__sidebar-trigger" />
                     </div>
