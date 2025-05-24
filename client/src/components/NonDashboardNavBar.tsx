@@ -16,7 +16,7 @@ const NonDashboardNavBar = () => {
                     <Link href="/" className='nondashboard-navbar__brand' scroll={false}>
                         Cloud Learn 
                     </Link>
-                    <span className="checkout-details__subtitle">Powered by AWS</span>
+                    <span className="tesxt-sm">Powered by AWS</span>
                     <div className="flex items-center gap-4">
                         <div className="relative group">
                             <Link href="/search" className="nondashboard-navbar__search-input" scroll={false}>
