@@ -10,9 +10,9 @@ function Footer() {
                     <Link
                         key={item}
                         href={`/`}
-                        className="footer__link">
+                        className="footer__link"
+                        scroll={false}>
                         {item}
-                        scroll={false}
                     </Link>
                 ))}
             </div>
