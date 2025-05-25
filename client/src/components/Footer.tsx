@@ -9,7 +9,7 @@ function Footer() {
                 {["About", "Privacy", "Policy", "Contact"].map((item) => (
                     <Link
                         key={item}
-                        href={`/${item.toLowerCase().replace(" ", "-")}`}
+                        href={`/`}
                         className="footer__link">
                         {item}
                         scroll={false}
